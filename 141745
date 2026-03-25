@@ -1,0 +1,19 @@
+
+const sidemenu = document.getElementById("sidemenu");
+
+
+function openMenu(){
+    sidemenu.style.right = "0";
+
+}
+
+function closeMenu(){
+    sidemenu.style.right = "-200px";
+}
+
+window.addEventListener("load",function(){
+    const loader = document.getElementById("loader");
+    loader.classList.add("fade-out");
+
+})
+

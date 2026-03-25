@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+    <h1 class="heading">My Portfolio Testing</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            
+           
+        </ul>
+        
+    </nav>
+
+    <div id="about">
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="dann.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h2>About Me</h2>
+                    <p>Hi, I`m <span>DANIEL MLENGA</span>, young passionate programmer aiming at producing scalable softwares.use the QR code below to find me on whatsapp.welcome to my Portfolio website!</p>
+                    <img src="QR code.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        </div>
+        <div id="skills">
+         <div class="skills">
+            <h2>Skills</h2>
+            <p><span>Html <br>css <br>javaScript <br>React & React-native</span></p>
+        </div>
+        </div>
+    </div>
+    </div>
+
+     <h1 class="heading">Just Testing</h1>
+   
+       <p> <span id="visitcount">0</span></p>
+    
+       
+    <script src="index.js"></script>
+</body>
+</html>
